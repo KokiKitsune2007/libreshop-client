@@ -94,7 +94,7 @@ int main(int argc, char **argv) {
 	printf("\x1b[1;0H");
 
 	printheader();
-	logprint(0, "Welcome to LibreShop!\n");
+	logprint(0, "Welcome to LibreShop Mod!\n");
 #ifdef DEBUG
 	logprint(2, "Warning! You are running a DEBUG build.\n");
 #endif

@@ -151,7 +151,7 @@ void progress_bar(int percent, int line) {
 
     char buf[OVERSCAN_X_PROGRESS + 1];
     for (int i = 0; i < OVERSCAN_X_PROGRESS; i++) {
-        if (i < bars) buf[i] = '#';
+        if (i < bars) buf[i] = '-';
         else buf[i] = ' ';
     }
     buf[OVERSCAN_X_PROGRESS] = '\0';
